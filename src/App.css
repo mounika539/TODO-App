@@ -1,0 +1,87 @@
+.App-background{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.header{
+       
+    color: rgb(220, 20, 140);
+    font-size: 30px;
+    font-weight:bold;
+    padding: 5px 25px;
+    border-radius: 40px;
+    text-align: start;
+    margin: 20px 10px 5px;
+    background-color: black ;
+}
+.task-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color:black;
+    justify-content: flex-start;
+    padding: 30px 70px 100px;
+    margin: 50px 50px 50px;
+    min-height: 210px;
+    min-width: 40%;
+    color: aliceblue;
+}
+.text-input{
+    border:groove;
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+    padding:5px 5px 0px;
+    font-weight: bold;
+    color:deeppink;
+}
+.Add-button{
+    border:groove;
+    outline: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    color: darkmagenta;
+}
+.Add-item{
+    padding: 70px 20px 30px;
+    color: cyan;
+    font-size: 20px;
+    font-style: italic;
+}
+.list-item{
+    background-color: aqua;
+    font-size: 20px;
+    width: 450px;
+    padding: 10px 15px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    color: blue;   
+}
+.delete-icon{
+    height:26px;
+    cursor:pointer;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.jc-space-between{
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;        
+}
+.task-complete{
+    text-decoration: line-through;
+    color: white;
+}
